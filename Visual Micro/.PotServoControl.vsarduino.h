@@ -63,7 +63,7 @@ extern "C" void __cxa_pure_virtual() {;}
 
 //
 //
-void SendServoCommand(int pot_angle, int time_delay);
+void SendServoCommand(int pot_angle, int pot_angle2, int time_delay);
 
 #include <PotServoControl.ino>
 #endif
